@@ -1,5 +1,5 @@
 # dat-boi-bot
-A bot which will look for comments saying "here comes dat boi" and will reply "o shit waddup".
+A reddit bot that will look for comments saying "here comes dat boi" and will reply "waddup".
 
 # How to run
 1. Download files
