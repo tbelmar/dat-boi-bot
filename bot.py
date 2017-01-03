@@ -28,7 +28,7 @@ def run(subreddit):
         if comment_text == "here comes dat boi" and comment.id not in comment_ids:
             try:
                 # replies to comment
-                comment.reply("o shit waddup")
+                comment.reply("waddup")
                 # stores comment id in array for comment_ids
                 comment_ids.append(comment.id)
             except:
