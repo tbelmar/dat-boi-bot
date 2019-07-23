@@ -1,5 +1,6 @@
 # dat-boi-bot
 A reddit bot that will look for comments saying "here comes dat boi" and will reply "waddup".
+(Reddit Python API test)
 
 # How to run
 1. Download files
