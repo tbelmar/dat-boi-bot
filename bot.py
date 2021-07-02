@@ -1,16 +1,16 @@
 # imports PRAW
 import praw
 import time
+import OAuth2Util
 
 # CHANGE THESE VARIABLES
 sub = "SUBREDDIT HERE"
-username = "USERNAME HERE"
-password = "PASSWORD HERE"
 
 # connects to user agent
-r = praw.Reddit(user_agent = "Reddit dat-boi made by /u/ImInThatCorner")
-# logs in to reddit account
-r.login(username, password, disable_warning=True)
+r = praw.Reddit("Reddit dat-boi v2.0 made by /u/ImInThatCorner and contribituion from /u/UnknownDeveloper")
+o = OAuth2Util.OAuth2Util(r)
+o.refresh(force=True)
+
 # creates array with comment ids that have already been replied to
 comment_ids = []
 
